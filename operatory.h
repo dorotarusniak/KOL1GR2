@@ -9,7 +9,9 @@
 
 bool operator>(const Litera& a, const Litera& b);
 bool operator<(const Litera& a, const Litera& b);
-std::ostream operator<<(std::ostream& str, const Litera& a);
-std::istream operator>>(std::istream& str, Litera& a);
+std::ostream& operator<<(std::ostream& str, const Litera& a);
+std::istream& operator>>(std::istream& str, Litera& a);
 
 #endif
+
+
