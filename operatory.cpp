@@ -21,9 +21,9 @@ std::istream& operator>>(std::istream& str, Litera& a) {
     }
     return str;
 }
-bool Litera::operator>(const Litera& a, const Litera& b){
+bool operator>(const Litera& a, const Litera& b){
 return ( (x = a.x) && (y = b.x );
 }
-bool Litera::operator<(const Litera& a, const Litera& b){
+bool operator<(const Litera& a, const Litera& b){
 return ( (x = a.x) && (y = b.x );
 }
